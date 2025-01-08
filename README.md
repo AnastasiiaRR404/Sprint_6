@@ -1,1 +1,1 @@
-# Sprint_6
+# Sprint_6: UI тестирование [Яндекс Самокат](https://qa-scooter.praktikum-services.ru/)
