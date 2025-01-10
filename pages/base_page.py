@@ -45,3 +45,7 @@ class BasePage:
     @allure.step('Переключаемся на новое окно')
     def switch_to_window(self):
         self.driver.switch_to.window(self.driver.window_handles[1])
+
+    @allure.step('Перейти по ссылке')
+    def go_to_url(self, url):
+        self.driver.get(url)

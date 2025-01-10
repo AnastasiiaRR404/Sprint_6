@@ -8,9 +8,9 @@ class MainPage(BasePage):
     def __init__(self, driver):
         self.driver = driver
 
-    @allure.step('Перейти на сайт Яндекс самокатов"')
-    def go_to_site(self, url="https://qa-scooter.praktikum-services.ru/"):
-        self.driver.get(url)
+    @allure.step('Перейти на сайт самокатов"')
+    def go_to_samokat(self, url="https://qa-scooter.praktikum-services.ru/"):
+        self.go_to_url(url)
 
     @allure.step('Нажать на кнопку оформления заказа')
     def click_order_button(self, button):
